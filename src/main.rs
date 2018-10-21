@@ -1,4 +1,4 @@
-#[cfg(feature = "signals")] use failure::Error;
+#[cfg(feature = "failure")] use failure::Error;
 #[cfg(feature = "signals")] use mio::unix::EventedFd;
 #[cfg(feature = "signals")]
 use nix::sys::{
@@ -75,9 +75,9 @@ impl<W, D> Drop for Restorer<W, D>
     }
 }
 
-#[cfg(not(feature = "signals"))]
+#[cfg(not(feature = "failure"))]
 pub type Result<T> = io::Result<T>;
-#[cfg(feature = "signals")]
+#[cfg(feature = "failure")]
 pub type Result<T> = std::result::Result<T, Error>;
 
 fn main() -> Result<()> {

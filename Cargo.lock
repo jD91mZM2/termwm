@@ -170,7 +170,7 @@ dependencies = [
 
 [[package]]
 name = "pseudoterm"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -246,7 +246,7 @@ dependencies = [
  "linked-hash-map 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "mio 0.6.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "nix 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "pseudoterm 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pseudoterm 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "ransid 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -332,7 +332,7 @@ dependencies = [
 "checksum net2 0.2.33 (registry+https://github.com/rust-lang/crates.io-index)" = "42550d9fb7b6684a6d404d9fa7250c2eb2646df731d1c06afc06dcee9e1bcf88"
 "checksum nix 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d37e713a259ff641624b6cb20e3b12b2952313ba36b6823c0f16e6cfd9e5de17"
 "checksum proc-macro2 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" = "3d7b7eaaa90b4a90a932a9ea6666c95a389e424eff347f0f793979289429feee"
-"checksum pseudoterm 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "06dcff7271eaa028f9d9449cb9b0f3b22a3cec2c7e096edbcbb7830495257e93"
+"checksum pseudoterm 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "b86360ec954b2626b9f774ace431512dbd3519f76c3f5d43ba58beec267d5321"
 "checksum quote 0.6.8 (registry+https://github.com/rust-lang/crates.io-index)" = "dd636425967c33af890042c483632d33fa7a18f19ad1d7ea72e8998c6ef8dea5"
 "checksum ransid 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)" = "8fc5fdcd7a4ca0bb24bf033534e0c137045538c84b0924af1c950d3ae41a2f71"
 "checksum redox_syscall 0.1.40 (registry+https://github.com/rust-lang/crates.io-index)" = "c214e91d3ecf43e9a4e41e578973adeb14b474f2bee858742d127af75a0112b1"
